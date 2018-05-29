@@ -1,0 +1,1 @@
+Aqui ficará tudo do bin do projeto
