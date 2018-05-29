@@ -1,0 +1,22 @@
+{
+  "name": "hevcat_server",
+  "version": "1.0.0",
+  "description": "server para projeto pibiti 2018.1, servicos de testes automaticos para codificadores de videos HEVC",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "hevc",
+    "video",
+    "web",
+    "testes",
+    "automaticos"
+  ],
+  "author": "wesley azevedo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
