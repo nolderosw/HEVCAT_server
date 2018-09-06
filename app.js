@@ -1,13 +1,7 @@
-var express = require('express');
-var app = express();
-var http = require('http');
-var path = require('path');
-var port = process.env.PORT || 5000;
+/* importar as configurações do servidor */
+var app = require('./config/server');
 
-app.set('port', process.env.PORT || 5000);
-app.listen(port, function() {
-	console.log('app is runing on port', port);
-});
-
-
-
+/* parametrizar a porta de escuta */
+app.listen(3000, function(){
+	console.log('Servidor online');
+})
